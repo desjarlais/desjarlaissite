@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brandon Desjarlais | Developer</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: system-ui, sans-serif;
+            background: #0d1117;
+            color: #e6edf3;
+            line-height: 1.6;
+        }
+
+        header {
+            padding: 60px 20px;
+            text-align: center;
+            background: #161b22;
+            border-bottom: 1px solid #30363d;
+        }
+
+        h1 {
+            font-size: 2.8rem;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: #58a6ff;
+            margin-top: 40px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .tagline {
+            font-size: 1.2rem;
+            opacity: 0.8;
+        }
+
+        .section {
+            margin-top: 40px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #30363d;
+        }
+
+        a {
+            color: #58a6ff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            opacity: 0.6;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Brandon Desjarlais</h1>
+    <div class="tagline">Developer • Escalation Engineer • Debugging Enthusiast</div>
+</header>
+
+<div class="container">
+
+    <div class="section">
+        <h2>About Me</h2>
+        <p>
+            I'm a developer based in Fargo, North Dakota. I work at Microsoft as an 
+            <strong>Escalation Engineer</strong>, spending my days debugging Microsoft Office applications 
+            and building debugging tools. By night, I’m usually learning, writing, or debugging code — 
+            because I genuinely enjoy the craft.
+        </p>
+        <p>
+            I’m also a fan of music and Carolina basketball.  
+            All views and opinions expressed here are my own and not those of my employer.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>What I Do</h2>
+        <ul>
+            <li>Deep debugging of Microsoft Office applications</li>
+            <li>Building internal debugging tools</li>
+            <li>Writing and experimenting with new code</li>
+            <li>Continuous learning in software engineering</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Portfolio</h2>
+        <p>
+            You can view my work and projects here:  
+            <a href="https://about.me/brandesoft" target="_blank">about.me/brandesoft</a>
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>Contact</h2>
+        <p>
+            Want to connect or collaborate?  
+            Reach out via my portfolio page or GitHub.
+        </p>
+    </div>
+
+</div>
+
+<footer>
+    © <span id="year"></span> Brandon Desjarlais
+</footer>
+
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
